@@ -41,6 +41,7 @@
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
   font-family: 'rubikmedium', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -53,11 +54,16 @@ hr {
 
 h1 {
   font-family: 'rubikmedium', sans-serif;
+  font-weight: bold;
   font-size: 48px;
 }
 
 h2 {
   font-family: 'rubikitalic', sans-serif;
+}
+
+h3 {
+  font-family: 'rubikmedium', sans-serif;
 }
 
 .next-quote {
@@ -90,6 +96,11 @@ h2 {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
-h2 span {
+h3 span {
   color: #dddddd;
+  font-family: 'rubikmedium', sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
 }
